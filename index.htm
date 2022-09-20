@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-COMMERCE SITE</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- swiper css link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- cusom css file link  -->
+    <link rel="stylesheet" href="styleofecommerce.css">
+    <!-- custom js file link  -->
+<script src="scriptofecommerce.js"></script>
+</head>
+<body>
+<!-- header section starts  -->
+<header class="header">
+    <a href="ECOMMERCE.htm" class="logo"> <i class="fas fa-store"></i> Shopie </a>
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="#" class="fas fa-user"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+</header>
+<!-- header section ends -->
+<!-- side-bar section starts -->
+<div class="side-bar">
+    <div id="close-side-bar" class="fas fa-times"></div>
+    <div class="user">
+        <img src="user-img.png" alt="">
+        <h3>shaikh anas</h3>
+        <a href="#">log out</a>
+    </div>
+    <nav class="navbar">
+        <a href="home.htm"> <i class="fas fa-angle-right"></i> home </a>
+        <a href="about.htm"> <i class="fas fa-angle-right"></i> about </a>
+        <a href="product.htm"> <i class="fas fa-angle-right"></i> products </a>
+        <a href="contact.htm"> <i class="fas fa-angle-right"></i> contact </a>
+        <a href="login.htm"> <i class="fas fa-angle-right"></i> login </a>
+        <a href="register.htm"> <i class="fas fa-angle-right"></i> register </a>
+        <a href="cart.htm"> <i class="fas fa-angle-right"></i> cart </a>
+    </nav>
+</div>
+<!-- side-bar section ends -->
+
+<!-- register form section starts  -->
+<section class="register">
+    <form action="">
+        <h3>register now</h3>
+        <input type="text" name="" placeholder="enter your name" id="" class="box">
+        <input type="email" name="" placeholder="enter your email" id="" class="box">
+        <input type="password" name="" placeholder="enter your password" id="" class="box">
+        <input type="password" name="" placeholder="re-enter your password" id="" class="box">
+        <input type="submit" value="register now" class="btn">
+        <p>already have an account?</p>
+        <a href="login.html" class="btn link">login now</a>
+    </form>
+</section>
+<!-- register form section ends  -->
+
+<!-- home section starts  -->
+<section class="home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide slide">
+            <div class="image">
+                <img src="home-img-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <span>upto 50% off</span>
+                <h3>smartphones</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+        <div class="swiper-slide slide">
+            <div class="image">
+                <img src="home-img-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <span>upto 50% off</span>
+                <h3>smartwatch</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+        <div class="swiper-slide slide">
+            <div class="image">
+                <img src="home-img-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <span>upto 50% off</span>
+                <h3>headphones</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</section>
+<!-- home section ends -->
+<!-- banner section starts  -->
+<section class="banner">
+    <div class="box-container">
+        <a href="#" class="box">
+            <img src="banner-1.jpg" alt="">
+            <div class="content">
+                <span>special offer</span>
+                <h3>upto 50% off</h3>
+            </div>
+        </a>
+        <a href="#" class="box">
+            <img src="banner-2.jpg" alt="">
+            <div class="content">
+                <span>special offer</span>
+                <h3>upto 50% off</h3>
+            </div>
+        </a>
+        <a href="#" class="box">
+            <img src="banner-3.jpg" alt="">
+            <div class="content">
+                <span>special offer</span>
+                <h3>upto 50% off</h3>
+            </div>
+        </a>
+    </div>
+</section>
+<!-- banner section ends -->
+<!-- arrivals section starts  -->
+<section class="arrivals">
+    <h1 class="heading"> new <span>arrivals</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="arrival-1.jpg" class="main-img" alt="">
+                <img src="arrival-1-hover.jpg" class="hover-img" alt="">
+            </div>
+            <div class="content">
+                <h3>HD television</h3>
+                <div class="price"> $249.99 <span>$399.99</span> </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="arrival-2.jpg" class="main-img" alt="">
+                <img src="arrival-2-hover.jpg" class="hover-img" alt="">
+            </div>
+            <div class="content">
+                <h3>lenovo laptop</h3>
+                <div class="price"> $249.99 <span>$399.99</span> </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="arrival-3.jpg" class="main-img" alt="">
+                <img src="arrival-3-hover.jpg" class="hover-img" alt="">
+            </div>
+            <div class="content">
+                <h3>new smartphone</h3>
+                <div class="price"> $249.99 <span>$399.99</span> </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="arrival-4.jpg" class="main-img" alt="">
+                <img src="arrival-4-hover.jpg" class="hover-img" alt="">
+            </div>
+            <div class="content">
+                <h3>new printer</h3>
+                <div class="price"> $249.99 <span>$399.99</span> </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="arrival-5.jpg" class="main-img" alt="">
+                <img src="arrival-5-hover.jpg" class="hover-img" alt="">
+            </div>
+            <div class="content">
+                <h3>new headphones</h3>
+                <div class="price"> $249.99 <span>$399.99</span> </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="arrival-6.jpg" class="main-img" alt="">
+                <img src="arrival-6-hover.jpg" class="hover-img" alt="">
+            </div>
+            <div class="content">
+                <h3>new speakers</h3>
+                <div class="price"> $249.99 <span>$399.99</span> </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- arrivals section ends -->
+
+<!-- category section starts  -->
+<section class="category">
+    <h1 class="heading"> shop by <span>category</span> </h1>
+    <div class="box-container">
+        <a href="#" class="box">
+            <img src="cat_img1.png" alt="">
+            <h3>televisions</h3>
+        </a>
+        <a href="#" class="box">
+            <img src="cat_img2.png" alt="">
+            <h3>smartphones</h3>
+        </a>
+        <a href="#" class="box">
+            <img src="cat_img3.png" alt="">
+            <h3>headphones</h3>
+        </a>
+        <a href="#" class="box">
+            <img src="cat_img4.png" alt="">
+            <h3>smartwatches</h3>
+        </a>
+        <a href="#" class="box">
+            <img src="cat_img5.png" alt="">
+            <h3>games</h3>
+        </a>
+        <a href="#" class="box">
+            <img src="cat_img6.png" alt="">
+            <h3>camera</h3>
+        </a>
+        <a href="#" class="box">
+            <img src="cat_img7.png" alt="">
+            <h3>speakers</h3>
+        </a>
+    </div>
+</section>
+<!-- category section ends -->
+<!-- products section starts  -->
+<section class="products">
+    <h1 class="heading"> featured <span>products</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="product-1.jpg" class="main-img" alt="">
+                <img src="product-1-hover.jpg" class="hover-img" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-search-plus"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>smartphone</h3>
+                <div class="price">$249.99 <span>$399.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="product-2.jpg" class="main-img" alt="">
+                <img src="product-2-hover.jpg" class="hover-img" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-search-plus"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>camera</h3>
+                <div class="price">$249.99 <span>$399.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="product-3.jpg" class="main-img" alt="">
+                <img src="product-3-hover.jpg" class="hover-img" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-search-plus"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>television</h3>
+                <div class="price">$249.99 <span>$399.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="product-4.jpg" class="main-img" alt="">
+                <img src="product-4-hover.jpg" class="hover-img" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-search-plus"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>speaker</h3>
+                <div class="price">$249.99 <span>$399.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="product-5.jpg" class="main-img" alt="">
+                <img src="product-5-hover.jpg" class="hover-img" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-search-plus"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>speaker</h3>
+                <div class="price">$249.99 <span>$399.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="product-6.jpg" class="main-img" alt="">
+                <img src="product-6-hover.jpg" class="hover-img" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-search-plus"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>smartwatch</h3>
+                <div class="price">$249.99 <span>$399.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="product-7.jpg" class="main-img" alt="">
+                <img src="product-7-hover.jpg" class="hover-img" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-search-plus"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>headphone</h3>
+                <div class="price">$249.99 <span>$399.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="product-8.jpg" class="main-img" alt="">
+                <img src="product-8-hover.jpg"class="hover-img" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-search-plus"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>smartphone</h3>
+                <div class="price">$249.99 <span>$399.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="product-9.jpg" class="main-img" alt="">
+                <img src="product-9-hover.jpg" class="hover-img" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-search-plus"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>camera</h3>
+                <div class="price">$249.99 <span>$399.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- products section ends -->
+<!-- product banner section starts  -->
+<section class="product-banner">
+    <h1 class="heading"> <span>deal</span> of the day </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="banner-1.jpg" alt="">
+            <div class="content">
+                <span>special offer</span>
+                <h3>upto 50% off</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="banner-2.jpg" alt="">
+            <div class="content">
+                <span>special offer</span>
+                <h3>upto 50% off</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="banner-3.jpg" alt="">
+            <div class="content">
+                <span>special offer</span>
+                <h3>upto 50% off</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- product banner section ends -->
+
+<!-- about section starts  -->
+<section class="about">
+    <div class="image">
+        <img src="about-img.png" alt="">
+    </div>
+    <div class="content">
+        <h3>our story</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Quam modi ea fuga quibusdam fugiat porro doloremque, quas dignissimos culpa unde. Recusandae maxime aliquam beatae reiciendis, facilis voluptatum eligendi nesciunt ipsa?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Accusamus, distinctio et? Odio voluptatum eius reprehenderit saepe quisquam excepturi molestiae architecto.</p>
+        <a href="#" class="btn">read more</a>
+    </div>
+</section>
+<!-- about section ends -->
+
+<!-- shopping cart section starts  -->
+<section class="shopping-cart">
+    <h1 class="heading">your <span>products</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="product-1.jpg" alt="">
+            <div class="content">
+                <h3>smartphone</h3>
+                <form action="">
+                    <span>quantity : </span>
+                    <input type="number" name="" value="1" id="">
+                </form>
+                <div class="price">$249.99 <span>$399.99</span></div>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="product-2.jpg" alt="">
+            <div class="content">
+                <h3>camera</h3>
+                <form action="">
+                    <span>quantity : </span>
+                    <input type="number" name="" value="1" id="">
+                </form>
+                <div class="price">$249.99 <span>$399.99</span></div>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="product-3.jpg" alt="">
+            <div class="content">
+                <h3>television</h3>
+                <form action="">
+                    <span>quantity : </span>
+                    <input type="number" name="" value="1" id="">
+                </form>
+                <div class="price">$249.99 <span>$399.99</span></div>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="product-4.jpg" alt="">
+            <div class="content">
+                <h3>speaker</h3>
+                <form action="">
+                    <span>quantity : </span>
+                    <input type="number" name="" value="1" id="">
+                </form>
+                <div class="price">$249.99 <span>$399.99</span></div>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="product-5.jpg"alt="">
+            <div class="content">
+                <h3>smartwatch</h3>
+                <form action="">
+                    <span>quantity : </span>
+                    <input type="number" name="" value="1" id="">
+                </form>
+                <div class="price">$249.99 <span>$399.99</span></div>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="product-6.jpg"alt="">
+            <div class="content">
+                <h3>smartwatch</h3>
+                <form action="">
+                    <span>quantity : </span>
+                    <input type="number" name="" value="1" id="">
+                </form>
+                <div class="price">$249.99 <span>$399.99</span></div>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="product-7.jpg"alt="">
+            <div class="content">
+                <h3>smartwatch</h3>
+                <form action="">
+                    <span>quantity : </span>
+                    <input type="number" name="" value="1" id="">
+                </form>
+                <div class="price">$249.99 <span>$399.99</span></div>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="product-8.jpg" alt="">
+            <div class="content">
+                <h3>headphone</h3>
+                <form action="">
+                    <span>quantity : </span>
+                    <input type="number" name="" value="1" id="">
+                </form>
+                <div class="price">$249.99 <span>$399.99</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="cart-total">
+        <h3> subtotal : <span>$1499.94</span> </h3>
+        <h3> discount : <span>-$99.94</span> </h3>
+        <h3> subtotal : <span>$1400.00</span> </h3>
+        <a href="#" class="btn">proceed to checkout</a>
+    </div>
+</section>
+<!-- shopping cart section ends  -->
+
+<!-- contact info section starts  -->
+<section class="info-container">
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-map"></i>
+            <h3>address</h3>
+            <p>delhi, india - 110040</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-envelope"></i>
+            <h3>email</h3>
+            <p>mdahiya9728@gmail.com</p>
+            <p>mdahiya9416@gmail.com</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-phone"></i>
+            <h3>number</h3>
+            <p>+91-97280XXXXX</p>
+            <p>+91-97280XXXXX</p>
+        </div>
+    </div>
+</section>
+<!-- contact info section ends -->
+<!-- contact section starts  -->
+<section class="contact">
+    <form action="">
+        <h3>get in touch</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Saepe provident nihil non unde, quia magnam quibusdam ad obcaecati nam animi?</p>
+        <div class="inputBox">
+            <input type="text" placeholder="your name">
+            <input type="email" placeholder="your email">
+        </div>
+        <div class="inputBox">
+            <input type="number" placeholder="your number">
+            <input type="text" placeholder="subject">
+        </div>
+        <textarea name="" placeholder="your message" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn">
+    </form>
+    <iframe class="map" src="https://www.bing.com/search?q=narela+delhi+110040&cvid=3bda729e91d44cf4ad37634b6dead39b&aqs=edge..69i57.4472j0j1&pglt=2083&FORM=ANNTA1&PC=U531" allowfullscreen="" loading="lazy"></iframe>
+</section>
+<!-- contact section ends -->
+<!-- newsletter section starts  -->
+<section class="newsletter">
+    <div class="content">
+        <h3>newsletter</h3>
+        <p>subscribe for weelky newsletter.</p>
+    </div>
+    <form action="">
+        <input type="email" name="" placeholder="enter your email" id="" class="email">
+        <input type="submit" value="subscribe" class="btn">
+    </form>
+</section>
+<!-- newsletter section ends -->
+
+<!-- review section starts  -->
+<section class="review">
+    <h1 class="heading"> Clients <span>Review</span> </h1>
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+                <img src="pic-1.png" alt="">
+                <h3>john deo</h3>
+                <span>designer</span>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt explicabo laborum eos delectus, in pariatur iste! Ducimus laudantium nostrum odio.</p>
+            </div>
+            <div class="swiper-slide slide">
+                <img src="pic-2.png" alt="">
+                <h3>john deo</h3>
+                <span>designer</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, culpa non eaque illo laudantium amet. Eius beatae, consequuntur corrupti atque, quod suscipit rem maiores impedit alias labore numquam nihil nostrum.</p>
+            </div>
+            <div class="swiper-slide slide">
+                <img src="pic-3.png" alt="">
+                <h3>john deo</h3>
+                <span>designer</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, culpa. Ducimus quos fuga hic. Tempore!</p>
+            </div>
+            <div class="swiper-slide slide">
+                <img src="pic-4.png" alt="">
+                <h3>john deo</h3>
+                <span>designer</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit explicabo placeat laborum pariatur voluptatibus tenetur impedit assumenda ex reprehenderit soluta ea fugiat error in laboriosam cum dicta consequuntur, sapiente minima quis hic deserunt magnam dignissimos.</p>
+            </div>
+            <div class="swiper-slide slide">
+                <img src="pic-5.png" alt="">
+                <h3>john deo</h3>
+                <span>designer</span>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt explicabo laborum eos delectus, in pariatur iste! Ducimus laudantium nostrum odio.</p>
+            </div>
+            <div class="swiper-slide slide">
+                <img src="pic-6.png" alt="">
+                <h3>john deo</h3>
+                <span>designer</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus earum quas quo natus quis, accusamus maxime magni molestias eos. Ab nihil magnam, id inventore explicabo ducimus repudiandae unde distinctio iste!</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- review section ends -->
+
+<!-- login form section starts  -->
+<section class="login">
+    <form action=" ">
+        <h3>login now</h3>
+        <input type="email" name="" placeholder="enter your email" id="" class="box">
+        <input type="password" name="" placeholder="enter your password" id="" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me </label>
+        </div>
+        <input type="submit" value="login now" class="btn">
+        <p>don't have an account?</p>
+        <a href="#" class="btn link">register now</a>
+    </form>
+</section>
+<!-- login form section ends  -->
+
+<!-- footer section starts  -->
+<section class="credit">
+    <p> Created by <span>mandeep dahiya</span> | all rights reserved! </p>
+    <img src="card_img.png" alt="">
+</section>
+<!-- footer section ends -->
+</body>
+</html>
